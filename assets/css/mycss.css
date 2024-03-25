@@ -1,0 +1,54 @@
+.inner-page {
+  background: #e8edf5;
+}
+
+#welcome {
+  color: #fff;
+  margin: 0px;
+  font-size: larger;
+  text-transform: capitalize;
+}
+
+/* Style the loading overlay */
+#loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the loading circle */
+#loading-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  border-top: 4px solid #47b2e4;
+  animation: spin 1s infinite linear;
+}
+
+/* Animation for the spinning loading circle */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#services {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#gap {
+  padding-bottom: 15px;
+  /* Adjust the value to control the space at the bottom */
+}
